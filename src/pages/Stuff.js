@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from '@mui/material/Button';
 
 class Stuff extends Component {
   render() {
@@ -14,6 +15,7 @@ class Stuff extends Component {
           <li>Vestibulum vulputate</li>
           <li>Eget erat</li>
           <li>Id porttitor</li>
+          <Button variant="contained">你好，世界</Button>
         </ol>
       </div>
     );
